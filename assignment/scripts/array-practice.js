@@ -11,6 +11,8 @@ console.log('Animals are: ', animalArray);
 //    Be sure to console.log your array of foods to the console with
 //    a message, similar to the example above.
 
+let favoriteFoods = ['pizza', 'burgers', 'tacos', 'breakfast sandwiches', 'sushi'];
+  console.log( 'Favorite foods are: ', favoriteFoods );
 
 // Array.length: A property that tells you how many items are in a given array.
 console.log('--- 2. Length of an array ---');
@@ -22,7 +24,8 @@ console.log('Number of animals:', numberOfAnimals);
 // 2. TODO: Create a variable `numberOfFoods` and use the .length property
 //    to assign it the number value of how many items are inside `favoriteFoods`.
 //    Don't forget to console.log `numberOfFoods` to make sure your code worked!
-
+let numberOfFoods = favoriteFoods.length;
+  console.log( 'Number of foods:', numberOfFoods );
 
 // Accessing array items
 console.log('--- 3. Accessing items in an array ---');
@@ -36,12 +39,16 @@ console.log('First animal is', firstAnimal);
 //      Be sure to console.log this new variable to make sure your code
 //      worked as expected.
 
+let secondAnimal = animalArray[1];
+  console.log( 'Second animal is', secondAnimal );
 
 // 3.b. TODO: Create a variable `lastAnimal` and assign it the value of
 //      the "last" item in `animalArray`, using its array index.
 //      You'll need to console.log `animalArray` and `lastAnimal` to make
 //      sure that your code does what you want. (Never trust your code until
 //      you have proof that it works!)
+
+
 
 // 3.c. (STRETCH) TODO: Refactor 3.b to use the `animalArray` variable's .length 
 //       property, rather than the exact (hardcoded) index number of the last item.
